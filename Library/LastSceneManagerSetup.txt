@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/NRSDK/Emulator/Scene/TrackableImageEmulator.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
