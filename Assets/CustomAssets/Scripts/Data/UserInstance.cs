@@ -1,5 +1,5 @@
 [System.Serializable]
-public class UserInstance
+public struct UserInstance
 {
     public float difficulty_level;
     public float[] difficulty_path;

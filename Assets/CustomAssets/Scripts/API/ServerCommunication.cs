@@ -19,7 +19,7 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
     /// <param name="callbackOnSuccess">Callback on success.</param>
     /// <param name="callbackOnFail">Callback on fail.</param>
     /// <typeparam name="T">Data Model Type.</typeparam>
-    private void SendRequest<T>(string url, UnityAction<T> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    private void SendRequest(string url, UnityAction<string> callbackOnSuccess, UnityAction<string> callbackOnFail)
     {
         StartCoroutine(RequestCoroutine(url, callbackOnSuccess, callbackOnFail));
     }
@@ -32,7 +32,7 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
     /// <param name="callbackOnSuccess">Callback on success.</param>
     /// <param name="callbackOnFail">Callback on fail.</param>
     /// <typeparam name="T">Data Model Type.</typeparam>
-    private IEnumerator RequestCoroutine<T>(string url, UnityAction<T> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    private IEnumerator RequestCoroutine(string url, UnityAction<string> callbackOnSuccess, UnityAction<string> callbackOnFail)
     {
         var www = UnityWebRequest.Get(url);
         yield return www.SendWebRequest();
@@ -44,9 +44,8 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
         }
         else
         {
-            Debug.Log(www.downloadHandler.text);
-            ParseResponse(www.downloadHandler.text, callbackOnSuccess, callbackOnFail);
-        }
+            callbackOnSuccess?.Invoke(www.downloadHandler.text);
+		}
     }
 
     /// <summary>
@@ -64,12 +63,28 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
 
     #endregion
 
+    
     #region [API]
 
-    public void GetInstances(int userID, UnityAction<QuoteData> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    public void GetInstances(int userID, UnityAction<UserInstance[]> callbackOnSuccess, UnityAction<string> callbackOnFail)
     {
-        SendRequest(string.Format(APIServerConfig.API_GET_LIVE, userID), callbackOnSuccess, callbackOnFail);
+        SendRequest(string.Format(APIServerConfig.API_GET_INSTANCE, userID),
+					jsonString => {
+						var parsedData = JsonUtility.FromJson<UserInstanceArray>("{\"array\": " + jsonString + "}");
+        				callbackOnSuccess?.Invoke(parsedData.array);
+					}, 
+					callbackOnFail);
     }
+    
+    public void GetLive(int userID, UnityAction<UserLive[]> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    {
+                SendRequest(string.Format(APIServerConfig.API_GET_INSTANCE, userID),
+					jsonString => {
+						var parsedData = JsonUtility.FromJson<UserLiveArray>("{\"array\": " + jsonString + "}");
+        				callbackOnSuccess?.Invoke(parsedData.array);
+					}, 
+					callbackOnFail);    
+	}
 
     #endregion
 }
