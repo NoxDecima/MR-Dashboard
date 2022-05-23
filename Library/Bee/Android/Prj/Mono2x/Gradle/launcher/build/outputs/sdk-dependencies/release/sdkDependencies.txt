@@ -1,0 +1,45 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "nr_api"
+  }
+  digests {
+    sha256: "\230\245\303-\377\333c\206\006\315\211(\221\'1\340\t\223\252\346\353:\026\333\330\337\367[\212\330V\225"
+  }
+}
+library {
+  maven_library {
+    artifactId: "nrvirtualcontroller"
+  }
+  digests {
+    sha256: "w|\367\220z(\307i\224\337\230\233\263$\033\030c\252\213\214C\331\232\272\317\"\330\236\342\344\235\304"
+  }
+}
+library {
+  digests {
+    sha256: "\267*`\313\321\210\342%\t\350\333\246y\326\334R\275\340R\223\332U\245j\341\3145-\333\267\346\236"
+  }
+}
+library {
+  digests {
+    sha256: "p\305\336\235\202\252\317\302d\201\032F\277\362\227\356\225\000\222L\356\3760\277\031QX\275\027\315\340\227"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+library_dependencies {
+  library_index: 3
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 2
+  dependency_index: 3
+}
