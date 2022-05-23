@@ -11,7 +11,7 @@ namespace NRKernal.NRExamples
 {
     using System.Collections.Generic;
     using UnityEngine;
-
+    
     /// <summary> Controller for TrackingImage example. </summary>
     [HelpURL("https://developer.nreal.ai/develop/unity/image-tracking")]
     public class TrackingImageExampleController : MonoBehaviour
@@ -20,7 +20,7 @@ namespace NRKernal.NRExamples
         public TrackingImageVisualizer TrackingImageVisualizerPrefab;
 
         /// <summary> The overlay containing the fit to scan user guide. </summary>
-        public GameObject FitToScanOverlay;
+        //public GameObject FitToScanOverlay; // roel has commented this out, it is not needed
 
         /// <summary> The visualizers. </summary>
         private Dictionary<int, TrackingImageVisualizer> m_Visualizers
@@ -53,7 +53,7 @@ namespace NRKernal.NRExamples
                     NRDebugger.Info("Create new TrackingImageVisualizer!");
                     // Create an anchor to ensure that NRSDK keeps tracking this augmented image.
                     visualizer = (TrackingImageVisualizer)Instantiate(TrackingImageVisualizerPrefab, image.GetCenterPose().position, image.GetCenterPose().rotation);
-                    visualizer.Image = image;
+                    visualizer.image = image; // Roel changed visualizer.Image to visualizer.image
                     visualizer.transform.parent = transform;
                     m_Visualizers.Add(image.GetDataBaseIndex(), visualizer);
                 }
@@ -63,7 +63,7 @@ namespace NRKernal.NRExamples
                     Destroy(visualizer.gameObject);
                 }
 
-                FitToScanOverlay.SetActive(false);
+                //FitToScanOverlay.SetActive(false); //roel has commented this out
             }
         }
 
