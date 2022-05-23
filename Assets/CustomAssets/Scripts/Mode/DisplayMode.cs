@@ -26,4 +26,26 @@ public class DisplayMode : MonoBehaviour
     {
         return _displayMode;
     }
+
+    public void cycleMode() 
+        {
+            switch(_displayMode)
+            {
+                case Mode.NAME: 
+                    setMode(Mode.TOPIC);
+                    break;
+                
+                case Mode.TOPIC: 
+                    setMode(Mode.PROGRESS);
+                    break;
+                
+                case Mode.PROGRESS: 
+                    setMode(Mode.MOOD);
+                    break;
+                
+                case Mode.MOOD: 
+                    setMode(Mode.NAME);
+                    break;
+            }
+        }
 }

@@ -15,12 +15,12 @@ namespace NRKernal{
         {
         }
 
-        // Update is called once per frame
+        // Handles user input
         void Update()
         {
             if(NRInput.GetButtonDown(ControllerButton.APP))
             {
-                cycleMode();
+                displayMode.cycleMode();
             }
         }
         
@@ -30,34 +30,6 @@ namespace NRKernal{
             newObject.name = "Student_" + studentID;
             newObject.transform.position = position;
             studentAssets.Add(newObject);
-        }
-
-        void cycleMode() 
-        {
-            switch(displayMode.getMode())
-            {
-                case DisplayMode.Mode.NAME: 
-                    switchMode(DisplayMode.Mode.TOPIC);
-                    break;
-                
-                case DisplayMode.Mode.TOPIC: 
-                    switchMode(DisplayMode.Mode.PROGRESS);
-                    break;
-                
-                case DisplayMode.Mode.PROGRESS: 
-                    switchMode(DisplayMode.Mode.MOOD);
-                    break;
-                
-                case DisplayMode.Mode.MOOD: 
-                    switchMode(DisplayMode.Mode.NAME);
-                    break;
-            }
-        }
-
-        void switchMode(DisplayMode.Mode mode)
-        {
-            displayMode.setMode(mode);
-            Debug.Log(mode);
         }
     }
 }
