@@ -1,10 +1,9 @@
-﻿// Done by Roel
+﻿// Done and edited by Roel
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using NRKernal;
-using System;
 
 public class TrackingImageVisualizer : MonoBehaviour
 {
@@ -13,13 +12,11 @@ public class TrackingImageVisualizer : MonoBehaviour
 
     void Update()
     {
-        Console.WriteLine("UPDATE! function called");
         if(image == null)
         {
             cube.SetActive(false);
             return;
         }
-        Console.WriteLine("Image detected!");
         var center = image.GetCenterPose();
         transform.position = center.position;
         transform.rotation = center.rotation;
