@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace NRKernal{
+namespace NRKernal
+{
     public class DisplayMode : MonoBehaviour
     {
         public enum Mode
         {
-            NAME, TOPIC, PROGRESS, MOOD
+            NAME, TOPIC, PROGRESS_C, PROGRESS_M, MOOD
         }
         
         private Mode _displayMode;
@@ -42,13 +43,17 @@ namespace NRKernal{
                 {
                     case Mode.NAME: 
                         setMode(Mode.TOPIC);
-                        break;
-                    
+                        break;                    
+
                     case Mode.TOPIC: 
-                        setMode(Mode.PROGRESS);
+                        setMode(Mode.PROGRESS_C);
                         break;
                     
-                    case Mode.PROGRESS: 
+                    case Mode.PROGRESS_C: 
+                        setMode(Mode.PROGRESS_M);
+                        break;
+
+                    case Mode.PROGRESS_M: 
                         setMode(Mode.MOOD);
                         break;
                     

@@ -12,9 +12,6 @@ namespace NRKernal
 
         public DisplayMode DisplayMode;
 
-        /// <summary> The overlay containing the fit to scan user guide. </summary>
-        //public GameObject FitToScanOverlay; // roel has commented this out, it is not needed
-
         /// <summary> The visualizers. </summary>
         private Dictionary<int, StudentVisualizer> m_Visualizers
             = new Dictionary<int, StudentVisualizer>();
@@ -54,7 +51,7 @@ namespace NRKernal
                     visualizer.transform.position = image.GetCenterPose().position;
                     visualizer.name = "Student_" + image.GetDataBaseIndex();
                     visualizer.StudentID = GetStudentID(image.GetDataBaseIndex());
-                    visualizer.DisplayMode = DisplayMode;
+                    visualizer.Mode = DisplayMode;
                     m_Visualizers.Add(image.GetDataBaseIndex(), visualizer);
                 }
             }

@@ -8,7 +8,15 @@ namespace NRKernal
     {
         public int StudentID;
 
-        public DisplayMode DisplayMode;
+        public DisplayMode Mode;
+
+        public Material Topic_mat;
+        public Material Cognitive_mat;
+        public Material Metacognitive_mat;
+        public Material Emotional_mat;
+        public Material Names_mat;
+
+        protected GameObject obj;
 
         // Start is called before the first frame update
         void Start()
@@ -19,7 +27,30 @@ namespace NRKernal
         // Update is called once per frame
         void Update()
         {
+            DisplayMode.Mode currentMode = Mode.getMode();
             
+            switch(currentMode)
+            {
+                case DisplayMode.Mode.NAME: 
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Names_mat;
+                    break;                    
+
+                case DisplayMode.Mode.TOPIC: 
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Topic_mat;
+                    break;
+                    
+                case DisplayMode.Mode.PROGRESS_C: 
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Cognitive_mat;
+                    break;
+
+                case DisplayMode.Mode.PROGRESS_M: 
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Metacognitive_mat;
+                    break;
+                    
+                case DisplayMode.Mode.MOOD: 
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Emotional_mat;
+                    break;
+            }
         }
     }
 }
