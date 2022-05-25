@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "nl.roel.QRcode",
+  "applicationId": "com.DefaultCompany.MRDashboard",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,9 +19,9 @@
       },
       "path": "resources-release.ap_",
       "properties": {
-        "packageId": "nl.roel.QRcode",
+        "packageId": "com.DefaultCompany.MRDashboard",
         "split": "",
-        "minSdkVersion": "32"
+        "minSdkVersion": "27"
       }
     }
   ]

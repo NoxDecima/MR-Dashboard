@@ -1,4 +1,4 @@
-nl.roel.QRcode
+com.DefaultCompany.MRDashboard
 drawable app_hover
 drawable app_normal
 drawable appbutton_selector

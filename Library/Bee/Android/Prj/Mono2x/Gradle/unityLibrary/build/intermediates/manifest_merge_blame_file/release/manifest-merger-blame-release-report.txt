@@ -8,9 +8,9 @@
 8
 9    <uses-sdk
 9-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-61
-10        android:minSdkVersion="32"
+10        android:minSdkVersion="27"
 10-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-61
-11        android:targetSdkVersion="32"
+11        android:targetSdkVersion="27"
 11-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-61
 12        tools:overrideLibrary="com.nreal.glasses_sdk" />
 12-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:13-58
@@ -42,113 +42,117 @@
 25-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-52
 25-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-49
 26
-27    <uses-permission android:name="android.permission.VIBRATE" />
-27-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-64
-27-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-61
-28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-28-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-79
-28-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-76
-29
-30    <uses-feature
-30-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-88
-31        android:name="android.hardware.touchscreen"
-31-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-60
-32        android:required="false" />
-32-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:61-85
-33    <uses-feature
-33-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-99
-34        android:name="android.hardware.touchscreen.multitouch"
-34-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-71
-35        android:required="false" />
-35-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:72-96
-36    <uses-feature
-36-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-108
-37        android:name="android.hardware.touchscreen.multitouch.distinct"
-37-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-80
-38        android:required="false" />
-38-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:81-105
-39
-40    <application
-40-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-19:17
-41        android:extractNativeLibs="true"
-41-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:123-155
-42        android:icon="@mipmap/app_icon"
-42-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:58-89
-43        android:label="@string/app_name"
-43-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:90-122
-44        android:theme="@style/UnityThemeSelector" >
-44-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:16-57
-45        <activity
-45-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:5-12:16
-46            android:name="com.unity3d.player.UnityPlayerActivity"
-46-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:15-68
-47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-47-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:138-319
-48            android:exported="true"
-48-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:391-414
-49            android:hardwareAccelerated="false"
-49-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:355-390
-50            android:launchMode="singleTask"
-50-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:106-137
-51            android:resizeableActivity="false"
-51-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:320-354
-52            android:screenOrientation="portrait" >
-52-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:69-105
-53            <intent-filter>
-53-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:7-10:23
-54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-61
-54-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-58
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:9-69
-56-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:19-66
-57            </intent-filter>
-58
-59            <meta-data
-59-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
-60                android:name="android.notch_support"
-60-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
-61                android:value="true" />
-61-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
-62        </activity>
-63
-64        <meta-data
-64-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-64
-65            android:name="nreal_sdk"
-65-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-40
-66            android:value="true" />
-66-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:41-61
-67        <meta-data
-67-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
-68            android:name="unity.splash-mode"
-68-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
-69            android:value="0" />
-69-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
-70        <meta-data
-70-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
-71            android:name="unity.splash-enable"
-71-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
-72            android:value="True" />
-72-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
-73        <meta-data
-73-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
-74            android:name="unity.launch-fullscreen"
-74-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
-75            android:value="True" />
-75-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
-76        <meta-data
-76-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
-77            android:name="unity.allow-resizable-window"
-77-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
-78            android:value="False" />
-78-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
-79        <meta-data
-79-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
-80            android:name="notch.config"
-80-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
-81            android:value="portrait|landscape" />
-81-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
-82    </application>
-83
-84</manifest>
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-65
+27-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-62
+28    <uses-permission android:name="android.permission.VIBRATE" />
+28-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-64
+28-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-61
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-77
+29-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:20-74
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-79
+30-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:20-76
+31
+32    <uses-feature
+32-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-88
+33        android:name="android.hardware.touchscreen"
+33-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-60
+34        android:required="false" />
+34-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:61-85
+35    <uses-feature
+35-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-99
+36        android:name="android.hardware.touchscreen.multitouch"
+36-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-71
+37        android:required="false" />
+37-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:72-96
+38    <uses-feature
+38-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-108
+39        android:name="android.hardware.touchscreen.multitouch.distinct"
+39-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-80
+40        android:required="false" />
+40-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:81-105
+41
+42    <application
+42-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-19:17
+43        android:extractNativeLibs="true"
+43-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:123-155
+44        android:icon="@mipmap/app_icon"
+44-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:58-89
+45        android:label="@string/app_name"
+45-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:90-122
+46        android:theme="@style/UnityThemeSelector" >
+46-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:16-57
+47        <activity
+47-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:5-12:16
+48            android:name="com.unity3d.player.UnityPlayerActivity"
+48-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:15-68
+49            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+49-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:138-319
+50            android:hardwareAccelerated="false"
+50-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:355-390
+51            android:launchMode="singleTask"
+51-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:106-137
+52            android:resizeableActivity="false"
+52-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:320-354
+53            android:screenOrientation="portrait" >
+53-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:69-105
+54            <intent-filter>
+54-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:7-10:23
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-61
+55-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-58
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:9-69
+57-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:19-66
+58            </intent-filter>
+59
+60            <meta-data
+60-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+61                android:name="android.notch_support"
+61-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+62                android:value="true" />
+62-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+63        </activity>
+64
+65        <meta-data
+65-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-64
+66            android:name="nreal_sdk"
+66-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-40
+67            android:value="true" />
+67-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:41-61
+68        <meta-data
+68-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+69            android:name="unity.splash-mode"
+69-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+70            android:value="0" />
+70-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+71        <meta-data
+71-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+72            android:name="unity.splash-enable"
+72-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+73            android:value="True" />
+73-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+74        <meta-data
+74-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+75            android:name="unity.launch-fullscreen"
+75-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+76            android:value="True" />
+76-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+77        <meta-data
+77-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+78            android:name="unity.allow-resizable-window"
+78-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+79            android:value="False" />
+79-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+80        <meta-data
+80-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+81            android:name="notch.config"
+81-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+82            android:value="portrait|landscape" />
+82-->C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+83    </application>
+84
+85</manifest>

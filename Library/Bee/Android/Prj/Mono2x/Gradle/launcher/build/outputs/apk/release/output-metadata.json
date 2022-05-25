@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "nl.roel.QRcode",
+  "applicationId": "com.DefaultCompany.MRDashboard",
   "variantName": "release",
   "elements": [
     {

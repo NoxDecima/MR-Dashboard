@@ -4,14 +4,14 @@ ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard
 INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
-MERGED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-84:12
+MERGED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-85:12
 MERGED from [:nr_api:] C:\Users\roell\.gradle\caches\transforms-2\files-2.1\8661066ad746ccec65155cbfeb706ee7\nr_api\AndroidManifest.xml:2:1-11:12
 MERGED from [:nrvirtualcontroller:] C:\Users\roell\.gradle\caches\transforms-2\files-2.1\e434b39453ca2de7cca0200c8afc2390\nrvirtualcontroller\AndroidManifest.xml:2:1-11:12
 INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-94
+		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-110
 		INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:versionName
@@ -19,7 +19,7 @@ INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashbo
 		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 		INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:95-141
+		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:111-157
 	android:versionCode
 		INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -27,7 +27,7 @@ INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashbo
 	xmlns:android
 		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:142-182
+		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:158-198
 supports-screens
 ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
 MERGED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-19:40
@@ -44,16 +44,16 @@ MERGED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Pro
 		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
 application
 ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
-MERGED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:5-82:19
-MERGED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:5-82:19
+MERGED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:5-83:19
+MERGED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:5-83:19
 	android:extractNativeLibs
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:9-41
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-41
 	android:label
 		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
 	android:icon
 		ADDED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
 	android:theme
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:9-50
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:9-50
 uses-sdk
 INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
@@ -92,97 +92,103 @@ uses-feature#0x00030000
 ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-54
 	android:glEsVersion
 		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:19-51
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-66
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-66
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:22-63
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-81
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-81
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:22-78
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:22-78
 uses-feature#android.hardware.touchscreen
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-32:36
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:5-34:36
 	android:required
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-33
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-33
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-52
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-52
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:5-35:36
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-37:36
 	android:required
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:9-33
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-33
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-63
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-63
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:5-38:36
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:5-40:36
 	android:required
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-33
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-33
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-72
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:9-72
 activity#com.unity3d.player.UnityPlayerActivity
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:9-62:20
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:9-63:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-49
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-49
 	android:launchMode
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-44
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-44
 	android:hardwareAccelerated
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-48
-	android:exported
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-36
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-48
 	android:resizeableActivity
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-47
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-47
 	android:configChanges
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-194
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-194
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-66
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-57:29
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-58:29
 action#android.intent.action.MAIN
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-69
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:17-69
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:25-66
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:25-66
 category#android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:17-77
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-77
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:27-74
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:27-74
 meta-data#android.notch_support
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-61:40
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-62:40
 	android:value
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:17-37
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:17-37
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:17-53
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:17-53
 meta-data#nreal_sdk
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:36
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:36
 	android:value
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-33
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-33
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-37
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-37
 meta-data#unity.splash-mode
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:33
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:33
 	android:value
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-30
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-30
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-45
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-45
 meta-data#unity.splash-enable
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:36
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:9-73:36
 	android:value
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-33
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-33
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-47
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-47
 meta-data#unity.launch-fullscreen
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:9-75:36
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:36
 	android:value
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-33
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-33
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-51
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-51
 meta-data#unity.allow-resizable-window
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:9-78:37
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-79:37
 	android:value
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-34
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-34
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-56
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-56
 meta-data#notch.config
-ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:9-81:50
+ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:9-82:50
 	android:value
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-47
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-47
 	android:name
-		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:13-40
+		ADDED from [:unityLibrary] C:\Users\roell\Documents\Master AI\New Media Lab\Project\MR-Dashboard\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-40

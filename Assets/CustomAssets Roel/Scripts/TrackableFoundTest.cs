@@ -28,7 +28,7 @@ public class TrackableFoundTest : MonoBehaviour
     /// <param name="qua"> The qua.</param>
     private void Found(Vector3 pos, Quaternion qua)
     {
-        Obj.transform.position = new Vector3(pos.x, pos.y + 1.0f, pos.z); // this is the position where the object will be placed
+        Obj.transform.position = new Vector3(pos.x, pos.y, pos.z); // this is the position where the object will be placed
         Obj.transform.rotation = qua;
         Obj.SetActive(true);
         // possibly: return position to the script that Justin made
