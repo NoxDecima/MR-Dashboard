@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 622704238d06abf46a6e3e0467d59f56, type: 3}
+  m_Name: TrackingImageDatabase
+  m_EditorClassIdentifier: 
+  m_Images:
+  - Name: alex-gruber-yzhLs9Zgwdo-unsplash
+    Width: 397
+    Height: 0
+    Quality: 48
+    TextureGUID: 4bf9502d5cbb6d0409c2ace5eb331bba
+  - Name: amy-shamblen-koYklSUjAXc-unsplash
+    Width: 397
+    Height: 0
+    Quality: 44
+    TextureGUID: d017f5cedebf14e478433258da6d49e2
+  - Name: anirudh-UiwUtEqROEs-unsplash
+    Width: 397
+    Height: 0
+    Quality: 85
+    TextureGUID: 439ff128e446edd45a5722bf41d00177
+  - Name: edgar-castrejon-1CsaVdwfIew-unsplash
+    Width: 397
+    Height: 0
+    Quality: 65
+    TextureGUID: 01bce979d136987408b4c82aab052c53
+  - Name: fly-d-NFtyWc2NSTA-unsplash
+    Width: 397
+    Height: 0
+    Quality: 74
+    TextureGUID: 6df8806e5c89ad74db16b00fc3f4b2de
+  - Name: fly-d-TAhiGCBHR7I-unsplash
+    Width: 397
+    Height: 595
+    Quality: 75
+    TextureGUID: 96682af45b41821469c59531bde66534
+  - Name: greyson-joralemon-9IBqihqhuHc-unsplash
+    Width: 397
+    Height: 298
+    Quality: 73
+    TextureGUID: 6e90d6a2579e1194b9725d93c3f3c582
+  - Name: heather-ford-Fq54FqucgCE-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: a4f809b57bbf8c745818b83b8e152893
+  - Name: jaanus-jagomagi-TqGSHpDF3JE-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: 3dcf75e41f7b39e4fb4184fc5c6cfdfa
+  - Name: jason-leung-MN251xZ9mBk-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: 4daf340d048c8014d85480b92173253e
+  - Name: joshua-coleman-8V4y-XXT3MQ-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: bf58efd07e5d0ed40bc835abf204171d
+  - Name: karly-santiago-E7zsz8JA8FM-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: b90d827d459c65643a002264c7e868da
+  - Name: kyler-nixon-z7pnyucFR5s-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: 5761ca2db717b604db4eca95b2e1f104
+  - Name: lucas-kapla-wQLAGv4_OYs-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: cf97786cb5428244d995d6af6e63cf5f
+  - Name: nick-fewings-1zJkgcOS0is-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: 05352767e3fbb534dbab0e75288685c7
+  - Name: nreal_city
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: dd3f33d7cc002da4fbd1cf892fe05589
+  - Name: nreal_snake
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: 570be5ff8a6ddc940af37ed4673d0dea
+  - Name: nreal_trib
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: 65c33c6567cb8af48ad84bc71880f991
+  - Name: pawel-czerwinski-3kvvTckVHhs-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: ca97f9a1d8ad0f947a4360e13bc2292c
+  - Name: robert-gramner-b7nK3aECcRI-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: 89e9c965a88f78742b91b80c814c338d
+  - Name: sharon-mccutcheon-p203ekCK4Ac-unsplash
+    Width: 0
+    Height: 0
+    Quality: 
+    TextureGUID: 6f9e93264921fa44e85ff5398dcb3aba
+  m_RawData: 
+  GUID: 278ccc83-6b44-4b07-b8f8-68695cfa2d58
+  m_IsRawDataDirty: 1
+  m_CliVersion: 
