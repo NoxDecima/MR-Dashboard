@@ -41,42 +41,37 @@ public class StudentVisualizer : MonoBehaviour
         switch(currentMode)
         {
             case DisplayMode.Mode.NAME: 
-                GetComponentsInChildren<MeshRenderer>()[0].material = Names_mat;
                 if(shouldUpdate()) {
-                    setText(StudentID);
+                    setName(StudentID);
                 }
                 break;                    
 
             case DisplayMode.Mode.TOPIC: 
-                GetComponentsInChildren<MeshRenderer>()[0].material = Topic_mat;
                 if (shouldUpdate())
                 {
-                    ServerCommunication.Instance.getTopic(StudentID, setText, error);
+                    ServerCommunication.Instance.getTopic(StudentID, setTopic, error);
                 }
                 break;
                 
             case DisplayMode.Mode.PROGRESS_C: 
-                GetComponentsInChildren<MeshRenderer>()[0].material = Cognitive_mat;
                 if (shouldUpdate())
                 {
-                    ServerCommunication.Instance.getProgress(StudentID, setText, error);
+                    ServerCommunication.Instance.getProgress(StudentID, setProgress, error);
                 }
                 break;
 
             case DisplayMode.Mode.PROGRESS_M: 
-                GetComponentsInChildren<MeshRenderer>()[0].material = Metacognitive_mat;
                 if (shouldUpdate())
                 {
-                    ServerCommunication.Instance.getEloHistory(StudentID, setText, error);
+                    ServerCommunication.Instance.getEloHistory(StudentID, setCognitive, error);
                 }
                 
                 break;
                 
             case DisplayMode.Mode.MOOD: 
-                GetComponentsInChildren<MeshRenderer>()[0].material = Emotional_mat;
                 if (shouldUpdate())
                 {
-                    ServerCommunication.Instance.getEmotional(StudentID, setText, error);
+                    ServerCommunication.Instance.getEmotional(StudentID, setEmotional, error);
                 }
                 break;
         }
@@ -95,26 +90,31 @@ public class StudentVisualizer : MonoBehaviour
 
     private void setName(int studentID) {
         // TODO @Justin
+        GetComponentsInChildren<MeshRenderer>()[0].material = Names_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = studentID.ToString();
     }
 
     private void setTopic(string topic) {
         // TODO @Justin
+        GetComponentsInChildren<MeshRenderer>()[0].material = Topic_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = topic.ToString();
     }
 
     private void setProgress(float eloScale) {
         // TODO @Justin
+        GetComponentsInChildren<MeshRenderer>()[0].material = Cognitive_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = eloScale.ToString();
     }
 
     private void setCognitive(int[] eloPath) {
         // TODO @Justin
+        GetComponentsInChildren<MeshRenderer>()[0].material = Metacognitive_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = eloPath.ToString();
     }
 
     private void setEmotional(float correctRatio) {
         // TODO @Justin
+        GetComponentsInChildren<MeshRenderer>()[0].material = Emotional_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = correctRatio.ToString();
     }
 
