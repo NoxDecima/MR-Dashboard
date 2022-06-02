@@ -40,10 +40,6 @@ namespace NRKernal
                 m_Visualizers.TryGetValue(image.GetDataBaseIndex(), out visualizer);
                 if (image.GetTrackingState() != TrackingState.Stopped && visualizer == null)
                 {
-                        
-                    Debug.Log(image.GetDataBaseIndex());
-                    Debug.Log(image.GetTrackingState());
-
                     NRDebugger.Info("Create new TrackingImageVisualizer!");
                     // Create an anchor to ensure that NRSDK keeps tracking this augmented image.
 
@@ -61,7 +57,7 @@ namespace NRKernal
         private int GetStudentID(int ImageIndex) 
         {
             // TODO finish implementation!!!
-            return 0;
+            return 383751;
         }
 
         /// <summary> Enables the image tracking. </summary>
