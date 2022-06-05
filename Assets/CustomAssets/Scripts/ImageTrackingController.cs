@@ -12,6 +12,8 @@ namespace NRKernal
 
         public DisplayMode DisplayMode;
 
+        public GameObject Camera;
+
         /// <summary> The visualizers. </summary>
         private Dictionary<int, StudentVisualizer> m_Visualizers
             = new Dictionary<int, StudentVisualizer>();
@@ -44,10 +46,12 @@ namespace NRKernal
                     // Create an anchor to ensure that NRSDK keeps tracking this augmented image.
 
                     visualizer = (StudentVisualizer)Instantiate(StudentVisualizerPrefab);
+                    // TODO move the visualizer up in the y dimension so its above the tracker.
                     visualizer.transform.position = image.GetCenterPose().position;
                     visualizer.name = "Student_" + image.GetDataBaseIndex();
                     visualizer.StudentID = GetStudentID(image.GetDataBaseIndex());
                     visualizer.Mode = DisplayMode;
+                    visualizer.LookAt = Camera;
                     m_Visualizers.Add(image.GetDataBaseIndex(), visualizer);
                 }
             }

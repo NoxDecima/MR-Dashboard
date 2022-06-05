@@ -225,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StudentID: 0
   Mode: {fileID: 0}
+  FaceAt: {fileID: 0}
   Topic_mat: {fileID: 2100000, guid: 8efb0d3e8808d8148846cf128cef6c62, type: 2}
   Cognitive_mat: {fileID: 2100000, guid: 22e95e8d527c8fb4793ce8a8e60e0315, type: 2}
   Metacognitive_mat: {fileID: 2100000, guid: 73f022768f87dcd4dbf71cae316b3a93, type: 2}
