@@ -10,8 +10,6 @@ public class StudentVisualizer : MonoBehaviour
 
     public DisplayMode Mode;
 
-    public GameObject LookAt;
-
     public Material Topic_mat;
     public Material Cognitive_mat;
     public Material Metacognitive_mat;
@@ -32,13 +30,9 @@ public class StudentVisualizer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Face towards LookAt object.
-        Vector3 target = LookAt.transform.position;
-        target.y = transform.position.y;
-        transform.rotation = Quaternion.LookRotation (target - transform.position);
+        DisplayMode.Mode currentMode = Mode.getMode();
         
         // Make sure to update when the mode is switched.
-        DisplayMode.Mode currentMode = Mode.getMode();
         if(currentMode != lastMode) {
             lastUpdated = 0;
             lastMode = currentMode;

@@ -2,7 +2,8 @@ namespace NRKernal
 {
     using System.Collections.Generic;
     using UnityEngine;
-    
+    using UnityEngine.UI;
+
     /// <summary> Controller for TrackingImage example. </summary>
     [HelpURL("https://developer.nreal.ai/develop/unity/image-tracking")]
     public class ImageTrackingController : MonoBehaviour
@@ -12,7 +13,7 @@ namespace NRKernal
 
         public DisplayMode DisplayMode;
 
-        public GameObject Camera;
+        public Canvas Canvas_UI;
 
         /// <summary> The visualizers. </summary>
         private Dictionary<int, StudentVisualizer> m_Visualizers
@@ -46,12 +47,17 @@ namespace NRKernal
                     // Create an anchor to ensure that NRSDK keeps tracking this augmented image.
 
                     visualizer = (StudentVisualizer)Instantiate(StudentVisualizerPrefab);
-                    // TODO move the visualizer up in the y dimension so its above the tracker.
                     visualizer.transform.position = image.GetCenterPose().position;
                     visualizer.name = "Student_" + image.GetDataBaseIndex();
                     visualizer.StudentID = GetStudentID(image.GetDataBaseIndex());
                     visualizer.Mode = DisplayMode;
-                    visualizer.LookAt = Camera;
+
+                    Canvas_UI = visualizer.GetComponentsInChildren<Canvas>()[0];
+                    Canvas_UI.transform.localPosition = new Vector3(-0.35f, 0.02f, -0.02f);
+                    Canvas_UI.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+                    var rectTransform = Canvas_UI.GetComponent<RectTransform>();
+                    rectTransform.sizeDelta = new Vector2(10, 10);
+
                     m_Visualizers.Add(image.GetDataBaseIndex(), visualizer);
                 }
             }
