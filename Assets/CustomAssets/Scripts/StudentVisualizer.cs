@@ -35,7 +35,7 @@ public class StudentVisualizer : MonoBehaviour
         // Face towards LookAt object.
         Vector3 target = LookAt.transform.position;
         target.y = transform.position.y;
-        transform.rotation = Quaternion.LookRotation (target - transform.position);
+        transform.rotation = Quaternion.LookRotation (transform.position - target);
         
         // Make sure to update when the mode is switched.
         DisplayMode.Mode currentMode = Mode.getMode();
