@@ -13,4 +13,5 @@ public struct UserInstance
     public string pahse;
     public string student_id;
     public int type;
+    public int was_last_active;
 }

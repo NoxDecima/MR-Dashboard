@@ -192,7 +192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4185256462254325528, guid: 07d09f3588ad0cce490660fb051a50c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.94
       objectReference: {fileID: 0}
     - target: {fileID: 4185256462254325528, guid: 07d09f3588ad0cce490660fb051a50c1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -339,6 +339,7 @@ MonoBehaviour:
   StudentVisualizerPrefab: {fileID: -6051338461185324777, guid: d1488030d603a7ba1a152403d917246b, type: 3}
   DisplayMode: {fileID: 2100977812}
   Camera: {fileID: 768143769}
+  classID: ansjovis3
 --- !u!4 &1062516710
 Transform:
   m_ObjectHideFlags: 0
@@ -431,7 +432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4185256462254325528, guid: 07d09f3588ad0cce490660fb051a50c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.542
+      value: 1.742
       objectReference: {fileID: 0}
     - target: {fileID: 4185256462254325528, guid: 07d09f3588ad0cce490660fb051a50c1, type: 3}
       propertyPath: m_LocalPosition.y

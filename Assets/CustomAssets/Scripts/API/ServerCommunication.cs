@@ -123,9 +123,6 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
         }, callbackOnFail);
     }
 
-
-
-
     public void getEmotional(int userID, UnityAction<float> callbackOnSuccess, UnityAction<string> callbackOnFail) 
     {
         GetInstances(userID, 
@@ -146,7 +143,23 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
         }, callbackOnFail);
     }
 
-    public int countCorrect(int[] eloPath)
+
+    public void startSimulation(string classID, UnityAction<Student[]> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    {
+        SendRequest(string.Format(APIServerConfig.API_START_SIMULATION, classID),
+            jsonString => {
+                var parsedData = JsonUtility.FromJson<Students>(jsonString);
+                if(parsedData.students.Length > 0) {
+                    callbackOnSuccess?.Invoke(parsedData.students);
+                } else {
+                    callbackOnFail?.Invoke($"No Students received for class: {classID}.");
+                }
+            }, 
+            callbackOnFail);
+    }
+
+
+    private int countCorrect(int[] eloPath)
     {
         int nrCorrect = 0;
 
@@ -167,7 +180,7 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
     private UserInstance selectActiveInstance(UserInstance[] instances)
     {
         // TODO Fix this function to be something proper.
-        return instances[0];
+        return instances.Where(i => i.was_last_active == 1).First();
     }
 
     #endregion
