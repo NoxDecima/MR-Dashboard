@@ -14,6 +14,8 @@ namespace NRKernal
 
         public GameObject Camera;
 
+        public NotificationController notifications;
+
         public string classID;
 
         /// <summary> The visualizers. </summary>
@@ -30,10 +32,16 @@ namespace NRKernal
         {
             ServerCommunication.Instance.startSimulation(
                 classID,
-                studentArray => {students = studentArray;},
-                message => {Debug.Log(message);}
+                studentArray => {   
+                    students = studentArray;
+                    notifications.ShowNotification("You can now start the configuration.");
+                },
+                message => {
+                    notifications.ShowNotification(message);
+                    Debug.Log(message);
+                }
             );
-        }
+            }
 
 
         /// <summary> Updates this object. </summary>
@@ -73,6 +81,9 @@ namespace NRKernal
                         visualizer.Mode = DisplayMode;
                         visualizer.LookAt = Camera;
                         m_Visualizers.Add(image.GetDataBaseIndex(), visualizer);
+
+                        notifications.ShowNotification($"Tracked student with id:{visualizer.StudentID}");
+                    
                     }
                 }
             }

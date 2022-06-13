@@ -18,7 +18,7 @@ public class StudentVisualizer : MonoBehaviour
     public Material Emotional_mat;
     public Material Names_mat;
 
-    private long lastUpdated;
+    private DateTime lastUpdated;
     private DisplayMode.Mode lastMode;
 
     private const int UPDATE_DELAY = 10;
@@ -26,7 +26,7 @@ public class StudentVisualizer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lastUpdated = 0;
+        lastUpdated = DateTime.Now.AddSeconds(-UPDATE_DELAY);
     }
 
     // Update is called once per frame
@@ -40,14 +40,16 @@ public class StudentVisualizer : MonoBehaviour
         // Make sure to update when the mode is switched.
         DisplayMode.Mode currentMode = Mode.getMode();
         if(currentMode != lastMode) {
-            lastUpdated = 0;
+            lastUpdated = DateTime.Now.AddSeconds(-UPDATE_DELAY);
             lastMode = currentMode;
+            GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = "...";
         }
         
         switch(currentMode)
         {
             case DisplayMode.Mode.NAME: 
                 if(shouldUpdate()) {
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Names_mat;
                     setName(StudentID);
                 }
                 break;                    
@@ -55,6 +57,7 @@ public class StudentVisualizer : MonoBehaviour
             case DisplayMode.Mode.TOPIC: 
                 if (shouldUpdate())
                 {
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Topic_mat;
                     ServerCommunication.Instance.getTopic(StudentID, setTopic, error);
                 }
                 break;
@@ -62,6 +65,7 @@ public class StudentVisualizer : MonoBehaviour
             case DisplayMode.Mode.PROGRESS_C: 
                 if (shouldUpdate())
                 {
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Cognitive_mat;
                     ServerCommunication.Instance.getProgress(StudentID, setProgress, error);
                 }
                 break;
@@ -69,6 +73,7 @@ public class StudentVisualizer : MonoBehaviour
             case DisplayMode.Mode.PROGRESS_M: 
                 if (shouldUpdate())
                 {
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Metacognitive_mat;
                     ServerCommunication.Instance.getEloHistory(StudentID, setCognitive, error);
                 }
                 
@@ -77,6 +82,7 @@ public class StudentVisualizer : MonoBehaviour
             case DisplayMode.Mode.MOOD: 
                 if (shouldUpdate())
                 {
+                    GetComponentsInChildren<MeshRenderer>()[0].material = Emotional_mat;
                     ServerCommunication.Instance.getEmotional(StudentID, setEmotional, error);
                 }
                 break;
@@ -85,9 +91,9 @@ public class StudentVisualizer : MonoBehaviour
 
     private bool shouldUpdate()
     {
-        if (DateTime.Now.Second > (lastUpdated + UPDATE_DELAY)) 
+        if (DateTime.Now > (lastUpdated.AddSeconds(UPDATE_DELAY))) 
         {
-            lastUpdated = DateTime.Now.Second;
+            lastUpdated = DateTime.Now;
             return true;
         }
 
@@ -96,31 +102,26 @@ public class StudentVisualizer : MonoBehaviour
 
     private void setName(int studentID) {
         // TODO @Justin
-        GetComponentsInChildren<MeshRenderer>()[0].material = Names_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = studentID.ToString();
     }
 
     private void setTopic(string topic) {
         // TODO @Justin
-        GetComponentsInChildren<MeshRenderer>()[0].material = Topic_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = topic.ToString();
     }
 
     private void setProgress(float eloScale) {
         // TODO @Justin
-        GetComponentsInChildren<MeshRenderer>()[0].material = Cognitive_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = eloScale.ToString();
     }
 
     private void setCognitive(int[] eloPath) {
         // TODO @Justin
-        GetComponentsInChildren<MeshRenderer>()[0].material = Metacognitive_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = eloPath.ToString();
     }
 
     private void setEmotional(float correctRatio) {
         // TODO @Justin
-        GetComponentsInChildren<MeshRenderer>()[0].material = Emotional_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = correctRatio.ToString();
     }
 
