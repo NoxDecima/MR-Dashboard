@@ -14,6 +14,7 @@ namespace NRKernal
         public DisplayMode DisplayMode;
 
         public Canvas Canvas_UI;
+        public UnityEngine.UI.Image GraphWindow;
 
         /// <summary> The visualizers. </summary>
         private Dictionary<int, StudentVisualizer> m_Visualizers
@@ -57,6 +58,9 @@ namespace NRKernal
                     Canvas_UI.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
                     var rectTransform = Canvas_UI.GetComponent<RectTransform>();
                     rectTransform.sizeDelta = new Vector2(10, 10);
+
+                    GraphWindow = visualizer.GetComponentsInChildren<Image>()[0];
+                    GraphWindow.transform.localPosition = new Vector3(35f, 0f, 0f);
 
                     m_Visualizers.Add(image.GetDataBaseIndex(), visualizer);
                 }

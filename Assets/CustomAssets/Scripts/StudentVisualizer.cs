@@ -19,6 +19,9 @@ public class StudentVisualizer : MonoBehaviour
     private long lastUpdated;
     private DisplayMode.Mode lastMode;
 
+    [SerializeField]
+    private List<GameObject> objects;
+
     private const int UPDATE_DELAY = 10;
 
     // Start is called before the first frame update
@@ -92,30 +95,40 @@ public class StudentVisualizer : MonoBehaviour
         // TODO @Justin
         GetComponentsInChildren<MeshRenderer>()[0].material = Names_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = studentID.ToString();
+        foreach (var obj in objects)
+            obj.SetActive(false);
     }
 
     private void setTopic(string topic) {
         // TODO @Justin
         GetComponentsInChildren<MeshRenderer>()[0].material = Topic_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = topic.ToString();
+        foreach (var obj in objects)
+            obj.SetActive(false);
     }
 
     private void setProgress(float eloScale) {
         // TODO @Justin
         GetComponentsInChildren<MeshRenderer>()[0].material = Cognitive_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = eloScale.ToString();
+        foreach (var obj in objects)
+            obj.SetActive(false);
     }
 
     private void setCognitive(int[] eloPath) {
         // TODO @Justin
         GetComponentsInChildren<MeshRenderer>()[0].material = Metacognitive_mat;
-        GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = eloPath.ToString();
+        GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = ""; //eloPath.ToString();
+        foreach (var obj in objects)
+            obj.SetActive(true);
     }
 
     private void setEmotional(float correctRatio) {
         // TODO @Justin
         GetComponentsInChildren<MeshRenderer>()[0].material = Emotional_mat;
         GetComponentsInChildren<UnityEngine.UI.Text>()[0].text = correctRatio.ToString();
+        foreach (var obj in objects)
+            obj.SetActive(false);
     }
 
     private void error(string str) 
