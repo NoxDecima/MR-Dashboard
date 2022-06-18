@@ -158,6 +158,23 @@ public class ServerCommunication : PersistentLazySingleton<ServerCommunication>
             callbackOnFail);
     }
 
+    public void timeToNextUpdate(string classID, UnityAction<int> callbackOnSuccess, UnityAction<string> callbackOnFail)
+    {
+        SendRequest(string.Format(APIServerConfig.API_NEXT_QUESTION_SIMULATION, classID),
+            jsonString => {
+                var parsedData = JsonUtility.FromJson<NextQuestionTime>(jsonString);
+                callbackOnSuccess?.Invoke(parsedData.seconds_till_next_question);
+            }, 
+            callbackOnFail);
+    }
+
+    public void skipToNextQuestion(string classID, UnityAction<string> callbackOnFail)
+    {
+        SendRequest(string.Format(APIServerConfig.API_SKIP_TO_QUESTION, classID),
+            jsonString => {}, 
+            callbackOnFail);
+    }
+
 
     private int countCorrect(int[] eloPath)
     {
