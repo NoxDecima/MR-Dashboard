@@ -74,7 +74,7 @@ namespace NRKernal
                         visualizer = (StudentVisualizer)Instantiate(StudentVisualizerPrefab);
                         // TODO move the visualizer up in the y dimension so its above the tracker.
                         Vector3 visPos = image.GetCenterPose().position;
-                        visPos.y = 0.2f;
+                        visPos.y = 0.1f;
                         visualizer.transform.position = visPos;
                         visualizer.name = "Student_" + image.GetDataBaseIndex();
                         visualizer.StudentID = GetStudentID(image.GetDataBaseIndex());
